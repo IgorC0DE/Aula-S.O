@@ -1,66 +1,78 @@
-# Sistemas Operacionais Modernos — Guia de Estudos
+# Atividade 2 — Evolução dos Sistemas Operacionais
 
-## Base do material
+**Disciplina:** Sistemas Operacionais  
+**Aluno:** Igor Antonio Campos Correa
 
-**Base:** Andrew S. Tanenbaum e Herbert Bos — *Sistemas Operacionais Modernos*, 4ª edição.
+## 1. Objetivo
 
-**Recorte:** conteúdo relacionado às páginas 5–14 da edição brasileira.
+Nesta atividade organizei um resumo sobre como os sistemas operacionais foram surgindo e mudando junto com a evolução dos computadores. A ideia é entender por que os primeiros computadores precisavam de muita intervenção manual e como chegamos aos sistemas atuais.
 
-> **Observação:** Este arquivo é um guia de estudos original. O objetivo é organizar os principais conceitos históricos e técnicos em uma linguagem simples e didática, sem reproduzir o livro página por página.
+## 2. O que é um sistema operacional?
 
----
+O sistema operacional é o software que controla os recursos do computador e permite que os programas sejam executados. Ele faz a comunicação entre os aplicativos e o hardware.
 
-# 1. Objetivo
-
-O objetivo deste guia é entender como os sistemas operacionais surgiram e como eles evoluíram de acordo com as mudanças no hardware dos computadores.
-
-Os computadores antigos eram muito diferentes dos computadores atuais. Eles eram grandes, caros, difíceis de programar e exigiam muita intervenção humana.
-
-Com o passar dos anos, novas tecnologias foram criadas, como:
-
-- válvulas;
-- transistores;
-- circuitos integrados;
-- microprocessadores;
-- computadores pessoais;
-- dispositivos móveis.
-
-Cada uma dessas mudanças trouxe novas possibilidades, mas também novos problemas.
-
-Por isso, os sistemas operacionais foram evoluindo para conseguir administrar melhor:
-
-- processador;
-- memória;
-- armazenamento;
-- entrada e saída;
-- programas;
-- usuários;
-- dispositivos;
-- segurança.
-
----
-
-# 2. O que é um Sistema Operacional?
-
-Um sistema operacional é um software responsável por administrar os recursos de um computador e fornecer uma maneira mais simples para os programas e usuários utilizarem o hardware.
-
-Podemos imaginar o sistema operacional como uma camada intermediária:
+Exemplo simplificado:
 
 ```text
-USUÁRIO
+Usuário
    ↓
-APLICAÇÕES
+Programas e aplicativos
    ↓
-SISTEMA OPERACIONAL
+Sistema Operacional
    ↓
-HARDWARE
+Hardware (CPU, RAM, SSD e periféricos)
+```
 
+Entre suas funções estão controlar os processos, organizar a memória, gerenciar arquivos, controlar dispositivos e oferecer segurança.
 
+## 3. Evolução por gerações
 
-| Geração    | Período aproximado | Principal tecnologia  | Característica          |
-| ---------- | ------------------ | --------------------- | ----------------------- |
-| 1ª geração | 1945–1955          | Válvulas              | Operação muito manual   |
-| 2ª geração | 1955–1965          | Transistores          | Processamento em lote   |
-| 3ª geração | 1965–1980          | Circuitos integrados  | Multiprogramação        |
-| 4ª geração | 1980–presente      | Computadores pessoais | Maior acessibilidade    |
-| 5ª geração | 1990–presente      | Computação móvel      | Mobilidade e eficiência |
+| Geração | Período aproximado | Tecnologia | Características |
+|---|---|---|---|
+| 1ª | 1940–1955 | Válvulas | Computadores enormes e operação manual, sem sistemas operacionais como conhecemos hoje. |
+| 2ª | 1955–1965 | Transistores | Surgimento do processamento em lote (*batch*), que agrupava tarefas. |
+| 3ª | 1965–1980 | Circuitos integrados | Multiprogramação e compartilhamento do tempo de CPU. |
+| 4ª | 1980–1990 | Microprocessadores | Popularização dos computadores pessoais e das interfaces gráficas. |
+| 5ª | 1990–atualidade | Internet e dispositivos móveis | Sistemas em rede, smartphones, virtualização e serviços em nuvem. |
+
+As datas são aproximadas, pois as tecnologias se sobrepõem e continuam sendo usadas em diferentes equipamentos.
+
+## 4. Sistemas importantes na história
+
+- **GM-NAA I/O (década de 1950):** um dos primeiros sistemas usados para automatizar tarefas em computadores IBM.
+- **CTSS (década de 1960):** ajudou a desenvolver a ideia de tempo compartilhado.
+- **OS/360 (1964):** sistema da IBM para a família System/360.
+- **UNIX (1969):** influenciou muitos sistemas que vieram depois.
+- **MS-DOS (1981):** muito utilizado nos primeiros computadores pessoais da IBM e compatíveis.
+- **Mac OS (1984):** ficou conhecido pela interface gráfica.
+- **Windows (1985 em diante):** evoluiu e se tornou muito popular nos computadores pessoais.
+- **Linux (1991):** kernel de código aberto que deu origem a várias distribuições.
+- **Android (2008):** sistema móvel baseado no kernel Linux.
+- **Windows 11 (2021):** versão atual da família Windows para computadores pessoais.
+
+## 5. Por que os sistemas operacionais evoluíram?
+
+A evolução aconteceu porque os computadores passaram a ter mais recursos e também porque as pessoas precisavam executar tarefas mais complexas. Foi necessário melhorar o uso da CPU, da memória, do armazenamento e dos dispositivos.
+
+Hoje um sistema operacional precisa lidar com vários programas ao mesmo tempo, redes, atualizações, segurança, diferentes tipos de hardware e até ambientes virtualizados.
+
+## 6. Comparação: antigamente e atualmente
+
+| Computadores antigos | Computadores atuais |
+|---|---|
+| Operação muito manual | Interfaces gráficas e automação |
+| Pouca memória e armazenamento | Grande capacidade de memória e SSD |
+| Poucos programas por vez | Multitarefa |
+| Acesso limitado a redes | Internet e serviços em nuvem |
+| Hardware específico e caro | Diversos modelos e dispositivos |
+
+## 7. Conclusão
+
+Com esta pesquisa, entendi que o sistema operacional foi evoluindo conforme o computador também evoluiu. No começo, quase tudo precisava ser feito manualmente. Depois surgiram recursos como processamento em lote, multiprogramação, interface gráfica, redes e sistemas móveis.
+
+Atualmente, o sistema operacional continua sendo essencial porque organiza os recursos do equipamento e permite que os programas funcionem de forma mais simples e segura.
+
+## 8. Referências
+
+- TANENBAUM, Andrew S.; BOS, Herbert. *Sistemas Operacionais Modernos*. 4. ed. Pearson, 2016.
+- Documentação e históricos oficiais dos projetos UNIX, Linux, Microsoft Windows e Android.
