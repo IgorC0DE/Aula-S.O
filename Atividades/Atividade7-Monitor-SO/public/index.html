@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monitor de Sistemas Operacionais</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #eef2f7;
+      color: #202938;
+    }
+    header {
+      background: #172554;
+      color: white;
+      padding: 28px 8%;
+    }
+    header p { color: #cbd5e1; margin-bottom: 0; }
+    main { max-width: 1050px; margin: 28px auto; padding: 0 18px; }
+    .topo { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+    button {
+      border: 0; border-radius: 8px; padding: 10px 16px;
+      background: #2563eb; color: white; cursor: pointer;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 16px;
+      margin-top: 20px;
+    }
+    .card {
+      background: white; border-radius: 12px; padding: 20px;
+      box-shadow: 0 3px 12px #0f172a12;
+    }
+    .card small { color: #64748b; }
+    .valor { font-size: 25px; font-weight: bold; margin: 10px 0 4px; }
+    .wide { grid-column: 1 / -1; }
+    .barra { height: 12px; background: #e2e8f0; border-radius: 20px; overflow: hidden; }
+    #progresso { height: 100%; width: 0; background: #2563eb; }
+    #status { color: #64748b; font-size: 13px; }
+    footer { text-align: center; color: #64748b; padding: 28px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Monitor de Sistemas Operacionais</h1>
+    <p>Visualização de informações básicas do computador ou servidor.</p>
+  </header>
+
+  <main>
+    <div class="topo">
+      <h2>Informações do sistema</h2>
+      <button onclick="carregarDados()">Atualizar</button>
+    </div>
+    <p id="status">Carregando informações...</p>
+
+    <section class="grid">
+      <article class="card">
+        <small>Nome da máquina</small>
+        <div class="valor" id="hostname">-</div>
+      </article>
+      <article class="card">
+        <small>Sistema operacional</small>
+        <div class="valor" id="sistema">-</div>
+      </article>
+      <article class="card">
+        <small>Arquitetura</small>
+        <div class="valor" id="arquitetura">-</div>
+      </article>
+      <article class="card">
+        <small>Processadores lógicos</small>
+        <div class="valor" id="cpus">-</div>
+      </article>
+      <article class="card">
+        <small>Memória total</small>
+        <div class="valor" id="total">-</div>
+      </article>
+      <article class="card">
+        <small>Memória usada</small>
+        <div class="valor" id="usada">-</div>
+      </article>
+      <article class="card">
+        <small>Memória livre</small>
+        <div class="valor" id="livre">-</div>
+      </article>
+      <article class="card">
+        <small>Tempo ligado</small>
+        <div class="valor" id="uptime">-</div>
+      </article>
+      <article class="card wide">
+        <div class="topo">
+          <strong>Uso aproximado da memória</strong>
+          <strong id="percentual">0%</strong>
+        </div>
+        <div class="barra"><div id="progresso"></div></div>
+        <p id="processador"></p>
+        <small id="versao"></small>
+      </article>
+    </section>
+  </main>
+
+  <footer>Projeto acadêmico — Sistemas Operacionais</footer>
+
+  <script>
+    async function carregarDados() {
+      const status = document.getElementById('status');
+      status.textContent = 'Atualizando informações...';
+
+      try {
+        const resposta = await fetch('/api/system');
+        if (!resposta.ok) throw new Error('Não foi possível consultar o servidor');
+        const dados = await resposta.json();
+
+        document.getElementById('hostname').textContent = dados.hostname;
+        document.getElementById('sistema').textContent = dados.platform;
+        document.getElementById('arquitetura').textContent = dados.architecture;
+        document.getElementById('cpus').textContent = dados.cpuCount;
+        document.getElementById('total').textContent = dados.totalMemory + ' GB';
+        document.getElementById('usada').textContent = dados.usedMemory + ' GB';
+        document.getElementById('livre').textContent = dados.freeMemory + ' GB';
+        document.getElementById('uptime').textContent = dados.uptime + ' min';
+        document.getElementById('percentual').textContent = dados.memoryPercent + '%';
+        document.getElementById('progresso').style.width = dados.memoryPercent + '%';
+        document.getElementById('processador').textContent = 'CPU: ' + dados.cpuModel;
+        document.getElementById('versao').textContent = dados.system + ' ' + dados.release;
+        status.textContent = 'Dados atualizados com sucesso.';
+      } catch (erro) {
+        status.textContent = 'Erro ao carregar dados. Verifique se o servidor está ligado.';
+      }
+    }
+
+    carregarDados();
+  </script>
+</body>
+</html>
