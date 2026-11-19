@@ -1,0 +1,12 @@
+{
+  "name": "monitor-sistemas-operacionais",
+  "version": "1.0.0",
+  "description": "Projeto de estudo para consultar recursos do sistema operacional com Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
