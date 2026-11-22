@@ -83,3 +83,15 @@ Portanto, sistemas operacionais diferentes podem compartilhar uma mesma base tec
 * Apple Developer. **BSD Overview**. Documentação sobre os componentes BSD utilizados no macOS.
 * Google for Developers. **Linux on ChromeOS**. Documentação oficial sobre Linux e ChromeOS.
 * Ubuntu. **Ubuntu Core as an immutable Linux Desktop base**. Documentação e informações sobre sistemas baseados em Linux.
+
+
+## Comparação dos exemplos
+
+Os exemplos pesquisados não utilizam todos a mesma base. Android e Ubuntu utilizam o kernel Linux, enquanto macOS e iOS utilizam o XNU. O ChromeOS também utiliza o kernel Linux, mas possui componentes e uma proposta de uso próprios.
+
+**Questões para revisão:**
+
+1. Android e Ubuntu utilizam o mesmo kernel? Isso significa que são o mesmo sistema?
+2. O que é o XNU?
+3. Por que não é correto dizer que macOS é simplesmente uma distribuição Linux?
+4. O que uma equipe pode ganhar ao reutilizar componentes de um projeto existente?
