@@ -32,3 +32,26 @@ npm start
 Depois acesse `http://localhost:3000`.
 
 > **Atenção:** na atividade prática, os resultados de execução local e em nuvem devem ser preenchidos com os valores realmente observados durante os testes. Não utilize números de exemplo como se fossem medições próprias.
+
+
+## Materiais complementares
+
+### Práticas
+
+- [Prática 01 — Identificando o sistema operacional](./Complementares/Pratica-01-Identificando-o-SO.md)
+- [Prática 02 — Observando processos](./Complementares/Pratica-02-Processos.md)
+- [Prática 03 — Histórico com Git](./Complementares/Pratica-03-Git-Historico.md)
+- [Prática 04 — Kernel e informações do sistema](./Complementares/Pratica-04-Kernel-e-Informacoes.md)
+- [Prática 05 — Planejando uma máquina virtual](./Complementares/Pratica-05-Maquina-Virtual.md)
+- [Prática 06 — Observando memória](./Complementares/Pratica-06-Memoria.md)
+- [Prática 07 — Containers e nuvem](./Complementares/Pratica-07-Containers-e-Nuvem.md)
+
+### Estudos de caso
+
+- [Caso 01 — Laboratório de informática](./Estudos-de-Caso/Caso-01-Laboratorio-de-Informatica.md)
+- [Caso 02 — Computador lento](./Estudos-de-Caso/Caso-02-Computador-Lento.md)
+- [Caso 03 — Trabalho em equipe com Git](./Estudos-de-Caso/Caso-03-Trabalho-em-Equipe.md)
+- [Caso 04 — Falha na inicialização](./Estudos-de-Caso/Caso-04-Falha-na-Inicializacao.md)
+- [Caso 05 — Escolha de distribuição Linux](./Estudos-de-Caso/Caso-05-Escolha-Linux.md)
+- [Caso 06 — Memória entre processos](./Estudos-de-Caso/Caso-06-Memoria-Compartilhada.md)
+- [Caso 07 — Publicação de aplicação](./Estudos-de-Caso/Caso-07-Publicacao-de-Aplicacao.md)
