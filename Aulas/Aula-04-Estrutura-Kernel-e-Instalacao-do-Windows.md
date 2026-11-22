@@ -46,3 +46,21 @@ O kernel é essencial para o funcionamento do sistema operacional, pois gerencia
 
 ---
 *Anotações de estudo — Sistemas Operacionais.*
+
+## Exemplo de comunicação com o hardware
+
+Quando um programa precisa ler um arquivo, ele não deve controlar diretamente o disco. Ele solicita uma operação ao sistema operacional, que utiliza o kernel e os drivers necessários para realizar o acesso de forma controlada.
+
+## Cuidados antes de instalar um sistema
+
+- Conferir os requisitos e a compatibilidade do equipamento.
+- Salvar documentos importantes em outro local.
+- Verificar com atenção o disco e a partição selecionados.
+- Ter em mãos os meios necessários para reinstalar drivers e programas.
+
+## Para revisar
+
+1. Qual é a função do kernel?
+2. O que é um driver?
+3. Por que a interface gráfica não é o kernel?
+4. Qual é o principal cuidado antes de formatar um disco?
