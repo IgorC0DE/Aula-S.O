@@ -255,3 +255,21 @@ Esses computadores representam o início da computação eletrônica moderna.
 
 - [📚 Atividades da disciplina](./Atividades/README.md)
 - [🖥️ Aulas e resumos](./Aulas/)
+
+
+## 📂 Organização do repositório
+
+O material está separado por assunto para facilitar a consulta:
+
+- **[Aulas](./Aulas/README.md):** anotações dos sete encontros e um guia de revisão.
+- **[Atividades](./Atividades/README.md):** exercícios, pesquisas, relatórios e materiais práticos.
+- **[Projeto Monitor de SO](./Atividades/Atividade7-Monitor-SO/):** aplicação desenvolvida com Node.js e Express para consultar informações do sistema.
+
+## 📝 Como utilizar este material
+
+1. Consulte o índice de aulas para localizar o assunto estudado.
+2. Use o guia de revisão para relembrar conceitos e testar comandos no computador.
+3. Acesse o índice de atividades para consultar os exercícios relacionados.
+4. Ao executar projetos ou comandos, registre os resultados que aparecerem no seu próprio ambiente.
+
+> Este repositório reúne anotações e atividades da disciplina de Sistemas Operacionais. Os exemplos servem como apoio ao estudo e devem ser conferidos com as orientações dadas em aula.
