@@ -400,3 +400,22 @@ A experiência mostrou que as máquinas virtuais podem ser utilizadas para estud
 **Aluno:** Igor Antonio Campos Correa
 **Disciplina:** Sistemas Operacionais
 **Atividade:** Manual de instalação e utilização de máquina virtual Linux
+
+
+
+## Conferência da máquina virtual
+
+Depois da instalação, verifique os seguintes pontos na máquina virtual:
+
+- [ ] O sistema convidado inicia sem apresentar erro.
+- [ ] É possível entrar na área de trabalho.
+- [ ] O mouse e o teclado funcionam.
+- [ ] A rede está funcionando, se configurada.
+- [ ] É possível abrir o terminal e executar um comando simples.
+
+**Questões:**
+
+1. Qual é o sistema host utilizado?
+2. Qual distribuição foi instalada como guest?
+3. Quais recursos de hardware foram reservados para a máquina virtual?
+4. Qual dificuldade apareceu durante a instalação, caso tenha ocorrido?
