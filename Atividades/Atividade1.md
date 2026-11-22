@@ -105,3 +105,13 @@
       │
 2020 ─ macOS Big Sur ─ Windows 11 ─ Android/iOS/Linux
 ```
+
+
+## Questões para conferir a linha do tempo
+
+1. Qual mudança tecnológica permitiu a popularização dos computadores pessoais?
+2. Por que o UNIX é considerado importante na história dos sistemas operacionais?
+3. Qual a diferença entre processamento em lote e tempo compartilhado?
+4. Escolha dois sistemas da tabela e compare o contexto em que surgiram.
+
+*Responda às questões após consultar a linha do tempo e as anotações da aula.*
