@@ -40,3 +40,21 @@ Entendi que a memória RAM precisa ser organizada pelo sistema operacional. Conc
 
 ---
 *Anotações de estudo — Sistemas Operacionais.*
+
+## Exemplo simples de uso de memória
+
+Ao abrir vários programas ao mesmo tempo, cada processo precisa de memória para guardar dados temporários. O sistema operacional acompanha as regiões ocupadas e disponíveis e impede que um processo utilize livremente a área privada de outro.
+
+## Termos importantes
+
+- **Página:** bloco de tamanho fixo do espaço de memória virtual.
+- **Quadro (frame):** bloco correspondente na memória física.
+- **Falta de página:** situação em que uma página solicitada não está disponível na RAM e precisa ser obtida de outro local.
+- **Swap:** área de armazenamento que pode ser utilizada como apoio à memória.
+
+## Para revisar
+
+1. Por que a RAM é considerada memória volátil?
+2. Qual a diferença entre página e quadro?
+3. O que pode acontecer quando o computador utiliza muito swap?
+4. Por que cada processo precisa de um espaço de endereçamento protegido?
