@@ -769,3 +769,21 @@ Assim, conclui-se que todos os conceitos estudados estão diretamente relacionad
 
 ---
 
+
+
+
+## Cuidados e conferência antes da instalação
+
+Antes de iniciar uma instalação ou formatação, confira:
+
+- [ ] Os arquivos importantes possuem backup.
+- [ ] A mídia de instalação foi preparada corretamente.
+- [ ] O computador atende aos requisitos do sistema.
+- [ ] O disco de destino foi identificado.
+- [ ] Existe um plano para reinstalar drivers e programas necessários.
+
+**Questões:**
+
+1. Qual é a função do BIOS/UEFI durante o boot?
+2. O que pode acontecer se uma partição errada for formatada?
+3. Por que o instalador precisa reconhecer os dispositivos de armazenamento?
