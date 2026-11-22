@@ -43,3 +43,16 @@ As distribuições Linux compartilham o kernel, mas não são todas iguais. Cada
 - Fedora: https://fedoraproject.org/
 - Kali Linux: https://www.kali.org/
 - Zorin OS: https://zorin.com/os/
+
+
+
+## Critérios para escolher uma distribuição
+
+A escolha de uma distribuição depende do objetivo, do hardware disponível, da familiaridade do usuário e do suporte oferecido pela comunidade. Uma distribuição voltada para segurança, por exemplo, não é necessariamente a melhor opção para um computador de uso diário.
+
+**Questões para revisão:**
+
+1. Qual distribuição da tabela você indicaria para um computador antigo? Por quê?
+2. Qual é a diferença entre Linux e uma distribuição Linux?
+3. Por que Kali Linux não é recomendado como primeira opção para todo usuário?
+4. Como uma máquina virtual pode ajudar na comparação entre distribuições?
