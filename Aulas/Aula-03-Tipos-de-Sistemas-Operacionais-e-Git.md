@@ -55,3 +55,18 @@ Aprendi a diferença entre os tipos de sistemas operacionais e revisei a import�
 
 ---
 *Anotações de estudo — Sistemas Operacionais.*
+
+## Exemplo de escolha do sistema
+
+Um computador de laboratório pode utilizar um sistema desktop, enquanto um servidor que hospeda um site precisa priorizar estabilidade, administração remota e disponibilidade. Um equipamento industrial pode utilizar um sistema de tempo real, no qual responder dentro do prazo é parte essencial do funcionamento.
+
+## Prática rápida com Git
+
+Dentro de uma pasta de estudos que já seja um repositório, execute `git status` para conferir as alterações e `git log --oneline` para visualizar o histórico de forma resumida. Não execute `git init` novamente em um repositório que já existe.
+
+## Para revisar
+
+1. Qual a diferença entre um sistema desktop e um sistema embarcado?
+2. Em que situação um sistema de tempo real pode ser necessário?
+3. Qual a diferença entre Git e GitHub?
+4. Para que serve um commit?
