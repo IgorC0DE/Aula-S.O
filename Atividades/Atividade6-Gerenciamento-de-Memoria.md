@@ -109,3 +109,16 @@ Aprendi que o gerenciamento de memória é importante para manter o computador f
 - TANENBAUM, Andrew S.; BOS, Herbert. *Sistemas Operacionais Modernos*. 4. ed. Pearson, 2016.
 - Documentação do Node.js — módulo `os`: https://nodejs.org/api/os.html
 - Manual do Linux — comandos `free`, `top` e `vmstat`.
+
+
+
+## Exercício de fixação
+
+Considere um computador com 8 GB de RAM que está executando um navegador, um editor de texto e uma ferramenta de videoconferência. Ao abrir mais programas, o sistema começa a utilizar swap.
+
+**Responda:**
+
+1. Por que o sistema operacional precisa controlar a memória utilizada por cada processo?
+2. Qual é a diferença entre RAM e swap?
+3. Por que o uso intenso de swap pode deixar o computador mais lento?
+4. Explique, com suas palavras, como a paginação ajuda a organizar a memória.
