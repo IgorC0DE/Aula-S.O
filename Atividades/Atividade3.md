@@ -93,3 +93,25 @@ Digite:
 
 ```bash
 git --version
+
+
+
+## Exercício de fixação
+
+Em uma pasta de teste, crie um arquivo chamado `anotacoes.md` e faça uma pequena alteração nele. Depois, execute os comandos abaixo e observe a saída:
+
+```bash
+git status
+git add anotacoes.md
+git status
+git commit -m "Adiciona anotacoes de teste"
+git log --oneline -1
+```
+
+**Perguntas:**
+
+1. O que mudou no resultado de `git status` depois do `git add`?
+2. O que o commit registrou?
+3. Por que é importante escolher uma mensagem que explique a alteração?
+
+*Faça esse teste em um repositório de estudo, não diretamente no repositório de entrega.*
