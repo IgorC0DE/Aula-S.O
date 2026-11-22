@@ -56,3 +56,23 @@ A virtualização é muito útil para estudar sistemas operacionais com mais seg
 
 ---
 *Anotações de estudo — Sistemas Operacionais.*
+
+## Exemplo de laboratório virtual
+
+É possível criar uma máquina virtual no VirtualBox, selecionar uma ISO do Ubuntu ou Lubuntu e instalar o sistema como convidado. A máquina virtual utiliza parte da memória e do processador do computador hospedeiro, por isso é importante não reservar todos os recursos para ela.
+
+## Comparação: host e guest
+
+| Termo | Significado |
+|---|---|
+| Host | Computador físico que executa o programa de virtualização. |
+| Guest | Sistema operacional instalado dentro da máquina virtual. |
+| ISO | Arquivo de imagem que pode ser usado como mídia de instalação. |
+| Snapshot | Registro do estado da máquina virtual em determinado momento. |
+
+## Para revisar
+
+1. O que é host e o que é guest?
+2. Cite duas vantagens de utilizar uma máquina virtual.
+3. O que é uma distribuição Linux?
+4. Por que é importante configurar corretamente a memória da máquina virtual?
