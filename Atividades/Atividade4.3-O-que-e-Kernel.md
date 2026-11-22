@@ -50,3 +50,18 @@ O kernel é essencial porque controla a comunicação com o hardware e organiza 
 - TANENBAUM, Andrew S.; BOS, Herbert. *Sistemas Operacionais Modernos*. 4. ed. Pearson, 2016.
 - Linux Kernel: https://www.kernel.org/
 - Apple Open Source — XNU: https://github.com/apple-oss-distributions/xnu
+
+
+
+## Questões para revisão
+
+1. Qual é a principal responsabilidade do kernel?
+2. O que diferencia modo usuário de modo kernel?
+3. Para que servem as chamadas de sistema?
+4. Cite dois exemplos de kernels utilizados em sistemas operacionais conhecidos.
+
+## Exemplo prático de observação
+
+No Linux, o comando `uname -r` mostra a versão do kernel em execução. No Windows, o comando `systeminfo` apresenta informações do sistema, incluindo a versão do sistema operacional.
+
+Execute os comandos no seu ambiente e anote a informação apresentada.
