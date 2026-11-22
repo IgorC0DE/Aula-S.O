@@ -58,3 +58,22 @@ A computação em nuvem permite utilizar infraestrutura e serviços pela interne
 
 ---
 *Anotações de estudo — Sistemas Operacionais.*
+
+## Exemplo de aplicação publicada
+
+Uma aplicação pode ser desenvolvida e testada no computador do aluno e depois publicada em uma plataforma de nuvem. Depois do deploy, o servidor da plataforma passa a executar a aplicação e disponibilizá-la por um endereço de rede.
+
+## Máquina virtual e container
+
+| Característica | Máquina virtual | Container |
+|---|---|---|
+| Sistema operacional | Geralmente executa um SO convidado completo. | Normalmente compartilha o kernel do host. |
+| Isolamento | Virtualiza recursos de hardware. | Isola processos e recursos do sistema. |
+| Uso comum | Laboratórios e execução de outros sistemas. | Empacotamento e execução de aplicações. |
+
+## Para revisar
+
+1. Explique a diferença entre IaaS, PaaS e SaaS.
+2. Qual a diferença básica entre máquina virtual e container?
+3. Para que serve um Dockerfile?
+4. O que precisa ser conferido depois de realizar um deploy?
