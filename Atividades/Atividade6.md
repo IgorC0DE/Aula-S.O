@@ -148,3 +148,15 @@ TANENBAUM, Andrew S.; BOS, Herbert. *Sistemas Operacionais Modernos*. 4. ed. Sã
 SILBERSCHATZ, Abraham; GALVIN, Peter B.; GAGNE, Greg. *Fundamentos de Sistemas Operacionais*. 9. ed. Rio de Janeiro: LTC, 2015.
 
 STALLINGS, William. *Sistemas Operacionais: Conceitos e Projetos*. 8. ed. São Paulo: Pearson, 2015.
+
+
+
+## Questões para revisão
+
+1. O que significa elasticidade na computação em nuvem?
+2. Diferencie IaaS, PaaS e SaaS com um exemplo de uso.
+3. O que é uma zona de disponibilidade?
+4. Por que a virtualização é importante para provedores de nuvem?
+5. Quais cuidados devem ser considerados ao contratar um serviço em nuvem?
+
+*Use os conceitos apresentados no resumo para elaborar as respostas.*
