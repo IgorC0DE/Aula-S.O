@@ -32,3 +32,13 @@ O principal entendimento é que o sistema operacional não é apenas a tela que 
 
 ---
 *Anotações de estudo — Sistemas Operacionais.*
+
+## Exemplo do dia a dia
+
+Quando abro um navegador, o sistema operacional carrega o programa, reserva memória, agenda o uso do processador e permite que ele acesse a rede. Se eu abrir também um editor de texto, o SO organiza os recursos para os dois programas funcionarem.
+
+## Para revisar
+
+1. Explique com suas palavras o que é um sistema operacional.
+2. Cite três recursos do computador que precisam ser gerenciados pelo SO.
+3. Dê um exemplo de sistema operacional utilizado em celular e outro em computador.
