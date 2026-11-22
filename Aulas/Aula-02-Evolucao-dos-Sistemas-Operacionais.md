@@ -38,3 +38,14 @@ A evolução dos sistemas operacionais aconteceu para facilitar o uso dos comput
 
 ---
 *Anotações de estudo — Sistemas Operacionais.*
+
+## Exemplo para entender a evolução
+
+Em um sistema de processamento em lote, o usuário entregava um conjunto de tarefas que seria executado sem interação constante. Em sistemas de tempo compartilhado, vários usuários podiam interagir com o computador, recebendo pequenas parcelas do tempo de CPU.
+
+## Para revisar
+
+1. O que caracteriza o processamento em lote?
+2. Qual foi a vantagem da multiprogramação?
+3. Por que o tempo compartilhado foi importante?
+4. Cite uma mudança que tornou os computadores pessoais mais fáceis de usar.
