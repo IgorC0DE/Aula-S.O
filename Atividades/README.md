@@ -18,6 +18,7 @@
 | [Atividade 6 — Memória](./Atividade6-Gerenciamento-de-Memoria.md) | Gerenciamento de memória, paginação, segmentação e swap |
 | [Atividade 7 — Relatório](./Atividade7-Monitor-SO.md) | Relatório do monitor de sistemas operacionais |
 | [Projeto Monitor de SO](./Atividade7-Monitor-SO/) | Aplicação Node.js + Express com painel web |
+| [Roteiro de testes do Monitor](./Roteiro-de-Testes-Monitor-SO.md) | Passos para executar, testar e registrar os resultados da aplicação |
 
 ## Como executar o projeto Monitor de SO
 
